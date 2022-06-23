@@ -1,126 +1,116 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pinterest</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="https://cdn.uc.assets.prezly.com/c196b8c5-de84-485e-bfcf-c79e32bee968/">
-    <script src="https://kit.fontawesome.com/60a6b1b560.js" crossorigin="anonymous"></script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clon Pinterest</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+        <nav class="nav-bar">
+            <ul class="ul-nav">
+                <div class="logo"><i class="fa-brands fa-pinterest"></i></div>
+                <li class="item-nav"><a href="./index.html" class="link-nav border">Inicio</a></li>
+                <li class="item-nav"><a href="#" class="link-nav">Hoy</a></li>
+                <li class="item-nav"><a href="#" class="link-nav">Crear</a></li>
+                <div class="search-box-border">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="input-nav-border">
+                        <input type="text" placeholder="Buscar" class="input-nav">
+                    </div>
+                </div>
+                <li class="item-nav"><a href="#" class="link-nav"><i class="fa-solid fa-bell"></i></a></li>
+                <li class="item-nav"><a href="#" class="link-nav"><i class="fa-solid fa-comment-dots"></i></a></li>
+                <li class="item-nav"><a href="#" class="link-nav letter">A</a></li>
+                <li class="item-nav"><a href="#" class="link-nav"><i class="fa-solid fa-angle-down"></i></a></li>
+             </ul>
 
-</head>
-<body>
-<!-- esta es la navbar-->
-<nav class="naveg">
-        <div class="naveg1">
-            <div class="intnaveg1"><img class="logoprincip" src="https://cdn.uc.assets.prezly.com/c196b8c5-de84-485e-bfcf-c79e32bee968/" alt="logo"></div>
-            <div class="intnaveg2">Inicio</div>
-            <div class="intnaveg">Hoy</div>
-            <div class="intnaveg">Crear</div>
-        </div>
-        <div class="naveg2"></div>
-        <div class="naveg3"></div>
-</nav>
-    <nav class="navbar">
-<!-- footercontainer contiene el dive footer que es donde se pondrá el boton flotante de signo de interrogación  -->
-        <div class="footercontainer">
-        <div class="footer">
-            <div class="signofloat">
-                <img class="signoint" src="http://assets.stickpng.com/images/5a4613ddd099a2ad03f9c994.png" alt="signo interrogación">
-            </div>
-        </div>
-        </div>
-    </nav>
-<!-- esta section contiene la caja que corresponde a la imagen principal (imgcontainer) y la caja que corresponde a las imagenes que se pondrán con css grid  -->
-    <section class="container">
-        <div class="imgcontainer">
-            <div class="columnamain1">
-                <div class="flecha">
-                   <img class="imgflecha" src="https://icones.pro/wp-content/uploads/2021/06/icone-fleche-gauche-noir.png" alt="">
-                </div>
-                <div class="texto"><p>Para ti</p></div>
-            </div>
-            <div class="mainimg">
-                <div class="divmainimg1"><img class="imagenmain" src="https://images.pexels.com/photos/11653461/pexels-photo-11653461.jpeg?cs=srgb&dl=pexels-ahmed-11653461.jpg&fm=jpgg" alt="13365917-Pizza-Margherita"></div>
-                <div class="divmainimg2">
-                    <div class="interno1">
-                        <div class="iconcaja">
-                            <button class="iconost"><i class="fa-solid fa-ellipsis fa-2xl"></i></button>
-                            <button class="iconost"><i class="arrow fa-solid fa-arrow-right-to-bracket fa-xl"></i></button>
-                            <button class="iconost"><i class="fa-solid fa-link fa-lg"></i></button>
-                        </div>
-                        <div class="botoncaja">Guardar
-                        </div>
-                    </div>
-                    <div class="interno2">
-                        <h1>Delicious italian breakfast</h1>
-                        <h4>Fresh oranges and diferent type of chesse, I really loved it...</h4>
-                    </div>
-                    <div class="interno3">
-                        <div class="perfil1">
-                            <img class="chefh" src="https://elcomercio.pe/resizer/CTr675eTvfJLHRlHAm3-SCbt7bM=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/K2MRBMZV2BADPOPXR7JC2MX2KY.jpg" alt="chef">
-                        </div>
-                        <div class="perfil2">
-                            <p class="c">Chef & Sea: Channel Inspiration</p>
-                            <p class="mill">1.3 mill seguidores</p>
-                        </div>
-                        <div class="perfil3">
-                            <div class="botonseguir">Seguir</div>
-                        </div>
-                    </div>
-                    <div class="interno4">
-                        <div>1 comentario</div>
-                        <div class="cheems1">
-                            <img class="cheems" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7stQ_1v8lk4awzumSe7cZKB_vs5EqRLqsmjWx0YtEWMz1nteDyvJKdpXutTqOCAliDmA&usqp=CAU" alt="cheems">
-                            <p class="c">Cheemgo01</p>
-                            <p class="mill">wherem is it??</p>
-                        </div>
-                        <div class="contenedoriconos1">
-                            <div class="minidiv1">
-                                    <p class="dosh">2h</p>
-                                <p class="resp">Responder</p>
-                                <i class="heart fa-solid fa-heart fa-2xs"></i>
-                                <i class="fa-solid fa-ellipsis fa-xs"></i>
-                            
-                            </div>
-                            <div class="minidiv2">
-                                <i class="fa-solid fa-thumbs-up fa-xs"></i>
-                                <p class="resp">Útil</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="interno5">
-                        <div class="comentlogo">
-                            <img class="mujerf" src="https://pbs.twimg.com/media/FIOm9KWXwAEJo6m.jpg" alt="mujer">
-                        </div>
-                        <div class="comentuno">
-                            <input class="inputbutcom" type="text">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="columnamain2"></div>
-        </div>
-        <div class="imagenesgrid">
-            <div class="hijo hijo-1"><img class="imagengridcss" src="https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-2"><img class="imagengridcss" src="https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-3"><img class="imagengridcss" src="https://images.pexels.com/photos/357573/pexels-photo-357573.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-4"><img class="imagengridcss" src="https://images.pexels.com/photos/1391487/pexels-photo-1391487.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-5"><img class="imagengridcss" src="https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-6"><img class="imagengridcss" src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-7"><img class="imagengridcss" src="https://images.pexels.com/photos/1260968/pexels-photo-1260968.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-8"><img class="imagengridcss" src="https://images.pexels.com/photos/416471/pexels-photo-416471.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-9"><img class="imagengridcss" src="https://images.pexels.com/photos/784631/pexels-photo-784631.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-10"><img class="imagengridcss" src="https://images.pexels.com/photos/3789885/pexels-photo-3789885.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-11"><img class="imagengridcss" src="https://images.pexels.com/photos/3304057/pexels-photo-3304057.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-            <div class="hijo hijo-12"><img class="imagengridcss" src="https://images.pexels.com/photos/3642030/pexels-photo-3642030.jpeg?auto=compress&cs=tinysrgb&w=800" alt=""></div>
-        </div>
+        </nav>
+    <div class="grid-container">
+        <a href="./individual.html"><div class="grid-item wide"
+        style="
+        background-image: url('https://images.pexels.com/photos/1841108/pexels-photo-1841108.jpeg?cs=srgb&dl=pexels-lina-kivaka-1841108.jpg&fm=jpg');"
+         ></div></a>
+            
        
+        <div class="grid-item"
+        style="background-image: url('https://images.pexels.com/photos/11551931/pexels-photo-11551931.jpeg?cs=srgb&dl=pexels-mindaugas-skrupskelis-11551931.jpg&fm=jpg');
+        "
+        ></div>
+        <div class="grid-item tall"
+         style="background-image: url('https://picsum.photos/id/1080/6858/4574.jpg');
+        "></div>
+        <div class="grid-item"
+        style="background-image: url('https://images.pexels.com/photos/11568775/pexels-photo-11568775.jpeg?cs=srgb&dl=pexels-christina-petsos-11568775.jpg&fm=jpg');"
+        ></div>
+        <div class="grid-item"
+        style="background-image: url('https://images.pexels.com/photos/1251196/pexels-photo-1251196.jpeg?cs=srgb&dl=pexels-valeria-boltneva-1251196.jpg&fm=jpg');"
+        ></div>
+        <div class="grid-item tall"
+        style="background-image: url(https://images.pexels.com/photos/2433979/pexels-photo-2433979.jpeg?cs=srgb&dl=pexels-desativado-2433979.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item"
+        style="background-image: url(https://images.pexels.com/photos/1860207/pexels-photo-1860207.jpeg?cs=srgb&dl=pexels-valeria-boltneva-1860207.jpg&fm=jpg);"
+        
+        ></div>
+        <div class="grid-item"
+        style="background-image: url(https://images.pexels.com/photos/1893569/pexels-photo-1893569.jpeg?cs=srgb&dl=pexels-valeria-boltneva-1893569.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item wide"
+        style="background-image: url(https://images.pexels.com/photos/704571/pexels-photo-704571.jpeg?cs=srgb&dl=pexels-daria-shevtsova-704571.jpg&fm=jpg);"
 
-    </section>
-    
-    
-    
-</body>
+        ></div>
+        <div class="grid-item"
+        style="background-image: url(https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg?cs=srgb&dl=pexels-spencer-davis-4393021.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item"
+        style="background-image: url(https://images.pexels.com/photos/4346305/pexels-photo-4346305.jpeg?cs=srgb&dl=pexels-ioana-motoc-4346305.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item wide"
+        style="background-image: url(https://images.pexels.com/photos/5107179/pexels-photo-5107179.jpeg?cs=srgb&dl=pexels-taryn-elliott-5107179.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item"
+        style="background-image: url(https://images.pexels.com/photos/4281747/pexels-photo-4281747.jpeg?cs=srgb&dl=pexels-taryn-elliott-4281747.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item"
+        style="background-image: url(https://images.pexels.com/photos/1616778/pexels-photo-1616778.jpeg?cs=srgb&dl=pexels-daria-shevtsova-1616778.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item tall"
+        style="background-image: url(https://images.pexels.com/photos/4996943/pexels-photo-4996943.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4996943.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item "
+        style="background-image: url(https://images.pexels.com/photos/1845287/pexels-photo-1845287.jpeg?cs=srgb&dl=pexels-daria-shevtsova-1845287.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item wide"
+        style="background-image: url(https://images.pexels.com/photos/8605817/pexels-photo-8605817.jpeg?cs=srgb&dl=pexels-solodsha-8605817.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item"
+        style="background-image: url(https://images.pexels.com/photos/8478182/pexels-photo-8478182.jpeg?cs=srgb&dl=pexels-los-muertos-crew-8478182.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item tall"
+        style="background-image: url(https://images.pexels.com/photos/11511244/pexels-photo-11511244.jpeg?cs=srgb&dl=pexels-figen-kokol-11511244.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item"
+        style="background-image: url(https://images.pexels.com/photos/11532336/pexels-photo-11532336.jpeg?cs=srgb&dl=pexels-anna-tukhfatullina-food-photographerstylist-11532336.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item wide"
+        style="background-image: url(https://images.pexels.com/photos/11689800/pexels-photo-11689800.jpeg?cs=srgb&dl=pexels-sami-abdullah-11689800.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item tall"
+        style="background-image: url(https://images.pexels.com/photos/11576164/pexels-photo-11576164.jpeg?cs=srgb&dl=pexels-h%C3%BCmeyra-kalkan-11576164.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item wide"
+        style="background-image: url(https://images.pexels.com/photos/11653461/pexels-photo-11653461.jpeg?cs=srgb&dl=pexels-ahmed-11653461.jpg&fm=jpg);"
+        ></div>
+        <div class="grid-item"
+        style="background-image: url(https://images.pexels.com/photos/2878746/pexels-photo-2878746.jpeg?cs=srgb&dl=pexels-jonathan-borba-2878746.jpg&fm=jpg);"
+        ></div>
+    </div>
+    <script
+    src="https://kit.fontawesome.com/838765ad28.js"
+    crossorigin="anonymous"
+  ></script>
+  </body>
 </html>
